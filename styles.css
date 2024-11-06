@@ -31,3 +31,9 @@ color: #a9e028;
  table{
     color: #fa053a;
  }
+
+ .highlight {
+    background-color: yellow;
+    color: black;
+ }
+ 
