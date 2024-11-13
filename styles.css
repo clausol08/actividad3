@@ -65,24 +65,24 @@ color: #a9e028;
  }
 
  header{
-    width: 950px;
-    height: 90px;
+    grid-row: 1;
+    background-color: #00796b;
+    color: #fff;
     text-align: center;
-    padding: 25px;
-    margin: 10px;
-    border: 2px solid red;
-    box-sizing: border-box;
+    padding: 1em;
 
  }
 
 nav{
-    width: 400px;
-    height: 90px;
-    text-align: center;
-    padding: 30px;
-    margin: 10px;
-    border: 2px solid black;
-    box-sizing: content-box;
+    grid-row: 2;
+    background-color: #00796b;
+    padding: 0.5em 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 ul{
     text-align: center;
@@ -96,52 +96,39 @@ ul{
 
 li{
     justify-content: right;
+    margin: 5px 20px;
 }
 
 main {
-    padding: 9px;
-    margin: 130px 20px;
-    border: 2px solid purple;
-    box-sizing: border-box;
-    border-radius: 5px;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
 }
  
-section  #inicio{
-    text-align: center;
-    width: 300px;
-    height: 100px;
+section {
+    background-color: green;
     padding: 20px;
-    margin: 15px;
-    border: 2px solid orange;
-    box-sizing: border-box;
     border-radius: 5px;
 }
 
 article{
-  width: 320px;
-  height: 50px;
-  padding: 10px;
-  border: 5px solid gray;
-  margin: 0;
+  background-color: #4db6c4;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 aside{
-    text-align: center;
-    width: 800px ;
-    height: 200px;
-    padding: 30px;
-    margin: -90px 400px;
-    border: 2px solid brown;
-    box-sizing: border-box;
+    background-color: #4db6c4;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 footer{
+    grid-row: 4;
+    background-color: #00796b;
+    color: #fff;
     text-align: center;
-    width: 600px;
-    height: 120px;
-    padding: 20px;
-    margin: 15px;
-    border: 2px solid purple;
-    box-sizing: border-box;
-    border-radius: 50px;
+    padding: 1em;
 }
