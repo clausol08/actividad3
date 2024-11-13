@@ -49,6 +49,11 @@ color: #a9e028;
     text-align: center;
     color: pink;
  }
+
+ label{
+    color: lightblue;
+}
+
  h4{
     font-size: 15px;
     color: green;
@@ -60,7 +65,8 @@ color: #a9e028;
  }
 
  header{
-    width: 900px;
+    width: 950px;
+    height: 90px;
     text-align: center;
     padding: 25px;
     margin: 10px;
@@ -70,32 +76,72 @@ color: #a9e028;
  }
 
 nav{
- width: 800px;
- text-align: center;
- padding: 30px;
- margin: 10px;
- border: 2px solid black;
- box-sizing: content-box;
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    border: 2px solid black;
+    box-sizing: content-box;
 }
 ul{
-    width: 200px;
-    text-align: justify;
+    text-align: center;
+    width: 80%;
+    height: 90px;
     padding: 15px;
-    margin: 5px;
-    border: 2px solid red;
-    box-sizing: content-box;
+    margin: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+li{
+    justify-content: right;
 }
 
 main {
-    width: 200px;
+    padding: 9px;
+    margin: 130px 20px;
+    border: 2px solid purple;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+ 
+section  #inicio{
     text-align: center;
-    border: 2px solid blue;
-    margin: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+article{
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+aside{
+    text-align: center;
+    width: 800px ;
+    height: 200px;
+    padding: 30px;
+    margin: -90px 400px;
+    border: 2px solid brown;
     box-sizing: border-box;
 }
- 
-section{
-    width: 200px;
 
+footer{
+    text-align: center;
+    width: 600px;
+    height: 120px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid purple;
+    box-sizing: border-box;
+    border-radius: 50px;
 }
- 
