@@ -132,3 +132,13 @@ footer{
     text-align: center;
     padding: 1em;
 }
+
+#video{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+div{
+    position: static;
+}
